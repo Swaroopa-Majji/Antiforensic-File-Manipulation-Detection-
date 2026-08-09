@@ -1,5 +1,3 @@
-%%writefile execution_bridge.py
-
 import numpy as np
 import collections
 import math
