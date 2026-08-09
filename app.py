@@ -28,7 +28,7 @@ st.markdown("# FORENSIC REPORT FOR ANTI-FORENSIC FILE MANIPULATION DETECTION")
 st.markdown("<div class='sub-bar'>Advanced Adaptive Rule-Based Framework | Operational Real-Time Investigation Terminal</div>", unsafe_allow_html=True)
 st.markdown("---")
 
-uploaded_file = st.file_uploader("📂 Drag and Drop Target Evidence File Asset for Live Verification (Supports up to 1GB)", type=None)
+uploaded_file = st.file_uploader("📂 Drag and Drop Target Evidence File Asset for Live Verification", type=None)
 
 if uploaded_file is not None:
     filename = uploaded_file.name
